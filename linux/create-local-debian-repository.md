@@ -4,7 +4,7 @@ outline: deep
 
 # Create Local Debian Repository
 
-## Download Deb Packages
+## Download deb packages
 Download only. Package files are only retrieved, not unpacked or installed.
 ```shell
 apt-get --download-only install <PackageName>
@@ -42,7 +42,8 @@ The configuration file (for example `myrepo.list`) should be placed under the `/
 ```shell
 deb [trusted=yes] file:/path/to/repository /
 ```
-Resynchronize the package index files.
+
+## Resynchronize the package index files
 ```shell
 apt-get update
 ```
