@@ -5,22 +5,25 @@ export default defineConfig({
     base: '/docs/',
     title: "RZ-Link Docs",
     description: "A VitePress Site",
+    lastUpdated: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Examples', link: '/markdown-examples'}
+            {text: 'linux', link: '/linux/'}
         ],
 
-        sidebar: [
-            {
-                text: 'Examples',
-                items: [
-                    {text: 'Markdown Examples', link: '/markdown-examples'},
-                    {text: 'Runtime API Examples', link: '/api-examples'}
-                ]
-            }
-        ],
+        sidebar: {
+            '/linux/': [
+                {
+                    text: 'linux',
+                    items: [
+                        {text: 'Index', link: '/linux/'},
+                        {text: 'Create Local Debian Repository', link: '/linux/create-local-debian-repository'},
+                    ]
+                }
+            ],
+        },
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
