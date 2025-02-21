@@ -10,13 +10,13 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'linux', link: '/linux/'}
+            {text: 'Linux', link: '/linux/'}
         ],
 
         sidebar: {
             '/linux/': [
                 {
-                    text: 'linux',
+                    text: 'Linux',
                     items: [
                         {text: 'Index', link: '/linux/'},
                         {text: 'Create Local Debian Repository', link: '/linux/create-local-debian-repository'},

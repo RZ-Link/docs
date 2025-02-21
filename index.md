@@ -8,10 +8,10 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: linux
+      text: Linux
       link: /linux/
     - theme: alt
-      text: linux
+      text: Linux
       link: /linux/
 
 features:
