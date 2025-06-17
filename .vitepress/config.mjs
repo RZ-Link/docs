@@ -10,7 +10,8 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             {text: 'Home', link: '/'},
-            {text: 'Linux', link: '/linux/'}
+            {text: 'Linux', link: '/linux/'},
+            {text: 'Python', link: '/python/'},
         ],
 
         sidebar: {
