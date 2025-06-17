@@ -20,6 +20,7 @@ export default defineConfig({
                     items: [
                         {text: 'Index', link: '/linux/'},
                         {text: 'Create Local Debian Repository', link: '/linux/create-local-debian-repository'},
+                        {text: 'Create Local YUM Repository', link: '/linux/create-local-yum-repository'},
                     ]
                 }
             ],
