@@ -11,8 +11,8 @@ hero:
       text: Linux
       link: /linux/
     - theme: alt
-      text: Linux
-      link: /linux/
+      text: Python
+      link: /python/
 
 features:
   - title: Feature A

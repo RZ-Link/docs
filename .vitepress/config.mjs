@@ -23,6 +23,16 @@ export default defineConfig({
                     ]
                 }
             ],
+            '/python/': [
+                {
+                    text: 'Python',
+                    items: [
+                        {text: 'Index', link: '/python/'},
+                        {text: 'pip', link: '/python/pip'},
+                        {text: 'venv', link: '/python/venv'},
+                    ]
+                }
+            ]
         },
 
         socialLinks: [
