@@ -7,7 +7,7 @@ outline: deep
 创建虚拟环境
 
 ```shell
-cd glance_store
+cd demo_project
 python3 -m venv .
 ```
 
