@@ -37,6 +37,10 @@ enabled=1
 gpgcheck=0
 ```
 
+```shell
+dnf clean all && dnf makecache
+```
+
 ## Download packages
 
 Download the latest package and the uninstalled dependencies to the current directory.
