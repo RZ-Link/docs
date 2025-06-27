@@ -17,7 +17,7 @@ python3 -m venv .
 source bin/activate
 ```
 
-取消激活虚拟环境
+退出虚拟环境
 
 ```shell
 deactivate
