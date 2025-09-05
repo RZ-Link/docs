@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: Python
       link: /python/
+    - theme: alt
+      text: OpenStack
+      link: /openstack/
 
 features:
   - title: Feature A

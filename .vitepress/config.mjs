@@ -12,6 +12,7 @@ export default defineConfig({
             {text: 'Home', link: '/'},
             {text: 'Linux', link: '/linux/'},
             {text: 'Python', link: '/python/'},
+            {text: 'OpenStack', link: '/openstack/'},
         ],
 
         sidebar: {
@@ -34,11 +35,20 @@ export default defineConfig({
                         {text: 'venv', link: '/python/venv'},
                     ]
                 }
+            ],
+            '/openstack/': [
+                {
+                    text: 'OpenStack',
+                    items: [
+                        {text: 'Index', link: '/openstack/'},
+                        {text: 'heat-templates', link: '/openstack/heat-templates'},
+                    ]
+                }
             ]
         },
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
+            {icon: 'github', link: 'https://github.com/RZ-Link/docs'}
         ]
     }
 })
