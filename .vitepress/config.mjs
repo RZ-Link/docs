@@ -42,6 +42,7 @@ export default defineConfig({
                     items: [
                         {text: 'Index', link: '/openstack/'},
                         {text: 'heat-templates', link: '/openstack/heat-templates'},
+                        {text: '虚拟化', link: '/openstack/虚拟化'},
                     ]
                 }
             ]
