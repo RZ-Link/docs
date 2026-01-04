@@ -6,6 +6,8 @@ outline: deep
 
 https://docs.openstack.org/heat/2023.1/
 
+https://www.thebyte.com.cn/network/linux-vritual-net.html
+
 https://docs.openeuler.org/zh/docs/24.03_LTS/docs/Virtualization/virtualization.html
 
 https://docs.openstack.org/image-guide/create-images-manually-tools-libvirt.html
