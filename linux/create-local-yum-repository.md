@@ -46,5 +46,9 @@ dnf clean all && dnf makecache
 Download the latest package and the uninstalled dependencies to the current directory.
 
 ```shell
-dnf download <PackageName> --resolve
+dnf download <PackageName or RPM file> --resolve
+
+# Examples
+dnf download nginx --resolve
+dnf download google-chrome-stable_current_x86_64.rpm --resolve
 ```
