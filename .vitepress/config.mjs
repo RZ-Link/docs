@@ -11,6 +11,7 @@ export default defineConfig({
         nav: [
             {text: 'Home', link: '/'},
             {text: 'Linux', link: '/linux/'},
+            {text: 'Java', link: '/java/'},
             {text: 'Python', link: '/python/'},
             {text: 'OpenStack', link: '/openstack/'},
         ],
@@ -43,6 +44,15 @@ export default defineConfig({
                         {text: 'Index', link: '/openstack/'},
                         {text: 'heat-templates', link: '/openstack/heat-templates'},
                         {text: '虚拟化', link: '/openstack/虚拟化'},
+                    ]
+                }
+            ],
+            '/java/': [
+                {
+                    text: 'Java',
+                    items: [
+                        {text: 'Index', link: '/java/'},
+                        {text: '工程', link: '/java/工程'},
                     ]
                 }
             ]
