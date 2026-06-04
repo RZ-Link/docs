@@ -34,6 +34,7 @@ export default defineConfig({
                         {text: 'Index', link: '/python/'},
                         {text: 'pip', link: '/python/pip'},
                         {text: 'venv', link: '/python/venv'},
+                        {text: 'usecase', link: '/python/usecase'},
                     ]
                 }
             ],
