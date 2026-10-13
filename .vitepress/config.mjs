@@ -64,6 +64,7 @@ export default defineConfig({
                     items: [
                         {text: 'Index', link: '/rabbitmq/'},
                         {text: '安装', link: '/rabbitmq/安装'},
+                        {text: 'usecase', link: '/rabbitmq/usecase'},
                     ]
                 }
             ]
