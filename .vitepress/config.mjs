@@ -14,6 +14,7 @@ export default defineConfig({
             {text: 'Java', link: '/java/'},
             {text: 'Python', link: '/python/'},
             {text: 'OpenStack', link: '/openstack/'},
+            {text: 'RabbitMQ', link: '/rabbitmq/'},
         ],
 
         sidebar: {
@@ -54,6 +55,15 @@ export default defineConfig({
                     items: [
                         {text: 'Index', link: '/java/'},
                         {text: '工程', link: '/java/工程'},
+                    ]
+                }
+            ],
+            '/rabbitmq/': [
+                {
+                    text: 'RabbitMQ',
+                    items: [
+                        {text: 'Index', link: '/rabbitmq/'},
+                        {text: '安装', link: '/rabbitmq/安装'},
                     ]
                 }
             ]
