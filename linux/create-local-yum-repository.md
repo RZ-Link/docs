@@ -52,3 +52,10 @@ dnf download <PackageName or RPM file> --resolve
 dnf download nginx --resolve
 dnf download google-chrome-stable_current_x86_64.rpm --resolve
 ```
+
+**--alldeps**
+When used with --resolve, download all dependencies (do not skip already installed ones).
+
+```shell
+dnf download nginx --resolve --alldeps
+```
