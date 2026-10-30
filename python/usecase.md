@@ -79,3 +79,26 @@ if __name__ == '__main__':
 
 ```
 
+## 执行命令
+
+```python
+def shell(command):
+    print(command)
+    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+
+    if result.returncode == 0:
+        return
+    else:
+        print(result.stdout)
+        print(result.stderr)
+        print('命令执行失败', command)
+        sys.exit()
+```
+
+## 启动进程
+
+```python
+def process(command):
+    result = subprocess.Popen(command, shell=True)
+    return result
+```
