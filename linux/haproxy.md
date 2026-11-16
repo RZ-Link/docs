@@ -16,7 +16,7 @@ dnf install haproxy
 systemctl start haproxy
 ```
 
-## 代理配置
+## 配置
 
 配置文件/etc/haproxy/haproxy.cfg
 
