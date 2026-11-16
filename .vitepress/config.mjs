@@ -25,6 +25,7 @@ export default defineConfig({
                         {text: 'Index', link: '/linux/'},
                         {text: 'Create Local Debian Repository', link: '/linux/create-local-debian-repository'},
                         {text: 'Create Local YUM Repository', link: '/linux/create-local-yum-repository'},
+                        {text: 'HAProxy', link: '/linux/haproxy'},
                     ]
                 }
             ],
